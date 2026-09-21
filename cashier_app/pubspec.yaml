@@ -1,0 +1,42 @@
+name: cashier_app
+description: "BillFlow - A simple Point of Sales (POS) application for Android."
+publish_to: 'none'
+version: 2.0.0+12
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+  esc_pos_utils_plus: ^2.0.4
+  permission_handler: 12.0.0
+  usb_serial: ^0.5.2
+  flutter_bluetooth_printer: ^2.24.0
+  path_provider: ^2.1.6
+  pdf: ^3.13.0
+  file_picker: ^12.2.0
+  share_plus: ^13.3.0
+  image: ^4.3.0
+  open_filex: ^4.7.0
+  crypto: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - logo/Logo BillFlow.jpg
+    - logo/Qris.jpeg
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "logo/Logo BillFlow.jpg"
